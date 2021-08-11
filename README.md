@@ -2,7 +2,7 @@
 This Android project demonstrates how to implement ecommerce events so you can measure user behavior through Google Analytics.
 
 ## Before you begin
-* Install or update Android Studio to its latest version.
+* Install or update [Android Studio](https://developer.android.com/sdk) to its latest version.
 
 ## Getting started
 
