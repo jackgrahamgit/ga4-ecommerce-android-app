@@ -18,3 +18,13 @@ To import the project:
 1. Click File > New > Project from Version Control > GitHub. 
 1. Enter your username and password.
 1. Select the repository and click Clone.
+
+## Notes to the team
+
+You only need to worry about these files:
+
+* activity_main.xml
+* AndroidManifest.xml
+* build.gradle (:app)
+* build.gradle (My Application)
+* MainActivity.java (and the other activities)
