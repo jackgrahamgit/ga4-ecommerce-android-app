@@ -29,7 +29,7 @@ You only need to worry about these files:
 * [build.gradle (My Application)](https://developer.android.com/studio/build#module-level)
 * [MainActivity.java](https://developer.android.com/guide/components/activities/intro-activities)
 
-### Modify the project 
+### Edit the project 
 
 As long as you don't generate a pull request to this repo with your changes, you can make any changes to the project on your local machine.
 
