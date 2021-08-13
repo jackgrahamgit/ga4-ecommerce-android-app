@@ -27,6 +27,7 @@ You only need to worry about these files:
 * [AndroidManifest.xml](https://developer.android.com/guide/topics/manifest/manifest-intro)
 * [build.gradle (:app)](https://developer.android.com/studio/build#top-level)
 * [build.gradle (My Application)](https://developer.android.com/studio/build#module-level)
+* google-services.json
 * [MainActivity.java](https://developer.android.com/guide/components/activities/intro-activities)
 
 ### Edit the project 
