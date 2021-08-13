@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mens_clothes">Mens clothes</string>
+    <string name="get_10_off_on_shirts">Get 10% off on shirts</string>
+    <string name="view_your_cart">View your cart</string>
+    <string name="googstore">GoogStore</string>
+</resources>
