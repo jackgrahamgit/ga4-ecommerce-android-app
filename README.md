@@ -24,7 +24,7 @@ To import the project:
 You only need to worry about these files:
 
 * activity_main.xml
-* AndroidManifest.xml
-* build.gradle (:app)
-* build.gradle (My Application)
-* MainActivity.java (and the other activities)
+* [AndroidManifest.xml](https://developer.android.com/guide/topics/manifest/manifest-intro): This describes the fundamental characteristics of the app and defines each of its components/screens.
+* [build.gradle (:app)](https://developer.android.com/studio/build#top-level)
+* [build.gradle (My Application)](https://developer.android.com/studio/build#module-level)
+* [MainActivity.java](https://developer.android.com/guide/components/activities/intro-activities): This the entry point for your app. When you build and run your app, the system launches an instance of this Activity and loads its layout.
