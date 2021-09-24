@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shopRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:listitem="@layout/shop_row"
+        /> <!-- number of rows -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/description_products"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/imageButton2"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView"-->
+<!--        app:srcCompat="@drawable/compton" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton2"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageButton"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView"-->
+<!--        app:srcCompat="@drawable/comverges" />-->
+
+<!--    &lt;!&ndash; Calls the openCompton method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:onClick="openItemCompton"-->
+<!--        android:text="@string/item_compton"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/button4"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageButton" />-->
+
+<!--    &lt;!&ndash; Calls the openComverges method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:onClick="openItemComverges"-->
+<!--        android:text="@string/item_comverges"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />-->
+
+<!--    &lt;!&ndash; Calls the openFlexigen method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:onClick="openItemFlexigen"-->
+<!--        android:text="@string/item_flexigen"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/button6"-->
+<!--        app:layout_constraintHorizontal_bias="0.193"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button3" />-->
+
+<!--    &lt;!&ndash; Calls the openFuelworks method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button6"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="@string/item_fuelworks"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button5"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button4" />-->
+
+<!--    &lt;!&ndash; Calls the openFuturis method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button7"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="@string/item_futuris"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.193"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button5" />-->
+
+<!--    &lt;!&ndash; Calls the openIsoternia method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button8"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="@string/item_isoternia"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.797"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button7"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button6" />-->
+
+<!--    &lt;!&ndash; Calls the openKiosk method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button9"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="@string/item_kiosk"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/button12"-->
+<!--        app:layout_constraintHorizontal_bias="0.275"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button7" />-->
+
+<!--    &lt;!&ndash; Calls the openLunchpod method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button10"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:text="@string/item_lunchpod"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button9" />-->
+
+<!--    &lt;!&ndash; Calls the openMasons method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button11"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:text="@string/item_masons"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.023"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button10"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button12"-->
+<!--        app:layout_constraintVertical_bias="0.097" />-->
+
+<!--    &lt;!&ndash; Calls the openPigzart method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button12"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="@string/item_pigzart"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button9"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button8" />-->
+
+<!--    &lt;!&ndash; Calls the openPoyo method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button13"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/item_poyo"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button11" />-->
+
+<!--    &lt;!&ndash; Calls the openZappix method in ProductsActivity.java &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button14"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/item_zappix"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+</FrameLayout>
