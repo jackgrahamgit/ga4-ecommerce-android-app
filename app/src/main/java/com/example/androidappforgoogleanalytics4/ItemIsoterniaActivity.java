@@ -1,15 +1,14 @@
-package com.example.myapplication;
+package com.example.androidappforgoogleanalytics4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-/** COMMENT */
-public class MensClothesActivity extends AppCompatActivity {
+public class ItemIsoterniaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mens_clothes);
+        setContentView(R.layout.activity_item_isoternia);
     }
 }

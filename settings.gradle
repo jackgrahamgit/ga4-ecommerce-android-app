@@ -1,2 +1,2 @@
-rootProject.name = "My Application"
+rootProject.name = "Android App for Google Analytics 4"
 include ':app'
