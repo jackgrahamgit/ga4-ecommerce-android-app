@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 // Defines methods to write to and read and remove from shared preferences
 // Learn more: https://developer.android.com/training/data-storage/shared-preferences
 public class Persist {
-    private static final String MY_PREFERENCE_NAME = "com.example.appstorage";
+    private static final String MY_PREFERENCE_NAME = "com.example.androidappforgoogleanalytics4";
 
     // Writes to shared preferences for the product associated with the specified key
     public static void writeValue(Context context, int quantity, String key) {

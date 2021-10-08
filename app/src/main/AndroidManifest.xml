@@ -12,9 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAppForGoogleAnalytics4">
-        <activity android:name=".OrderConfirmationActivity"></activity>
-        <activity android:name=".BillingInformationActivity" android:parentActivityName=".ShippingInformationActivity"/>
-        <activity android:name=".ShippingInformationActivity" android:parentActivityName=".CartActivity"/>
+        <activity android:name=".OrderConfirmationActivity" />
+        <activity
+            android:name=".BillingInformationActivity"
+            android:parentActivityName=".ShippingInformationActivity" />
+        <activity
+            android:name=".ShippingInformationActivity"
+            android:parentActivityName=".CartActivity" />
         <activity android:name=".CartActivity" /> <!-- Connect with AdMob app ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
