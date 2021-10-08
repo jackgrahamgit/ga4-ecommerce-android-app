@@ -12,9 +12,9 @@ import android.widget.TextView; // Pass value through Intent
 
 public class CartActivity extends AppCompatActivity {
 
-    private TextView comvergesQuantity, comvergesPrice, comptonQuantity, comptonPrice, flexigenQuantity, flexigenPrice, fuelworksQuantity, fuelworksPrice, totalPrice;
-    private int counterComverges, counterCompton, counterFlexigen, counterFuelworks, total;
-    private View removeComverges;
+    private TextView comptonQuantity, comptonPrice, comvergesQuantity, comvergesPrice, flexigenQuantity, flexigenPrice, fuelworksQuantity, fuelworksPrice, totalPrice;
+    private int counterCompton, counterComverges, counterFlexigen, counterFuelworks, total;
+    private View removeCompton, removeComverges, removeFlexigen, removeFuelworks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,15 +25,25 @@ public class CartActivity extends AppCompatActivity {
         comptonQuantity = findViewById(R.id.comptonQuantity);
         comptonPrice = findViewById(R.id.comptonPrice);
         counterCompton = Persist.readValue(this, "COMPTON");
-        comptonQuantity.setText("Compton quantity: " + counterCompton);
-        comptonPrice.setText("Compton subtotal: $" + counterCompton*44 + ".00");
+        comptonQuantity.setText("" + counterCompton); // Compton quantity
+        comptonPrice.setText("$" + counterCompton*44); // Compton subtotal
+
+        // Removes compton from cart
+        removeCompton = findViewById(R.id.removeCompton);
+        removeCompton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Persist.deleteValue(getApplicationContext(), "COMPTON");
+                startActivity(new Intent(CartActivity.this, CartActivity.class));
+            }
+        });
 
         // Number of times user adds comverges to their cart
         comvergesQuantity = findViewById(R.id.comvergesQuantity);
         comvergesPrice = findViewById(R.id.comvergesPrice);
         counterComverges = Persist.readValue(this, "COMVERGES");
-        comvergesQuantity.setText("Comverges quantity: " + counterComverges);
-        comvergesPrice.setText("Comverges subtotal: $" + counterComverges*33 + ".00");
+        comvergesQuantity.setText("" + counterComverges); // Comverges quantity
+        comvergesPrice.setText("$" + counterComverges*33); // Comverges subtotal
 
         // Removes comverges from cart
         removeComverges = findViewById(R.id.removeComverges);
@@ -49,20 +59,40 @@ public class CartActivity extends AppCompatActivity {
         flexigenQuantity = findViewById(R.id.flexigenQuantity);
         flexigenPrice = findViewById(R.id.flexigenPrice);
         counterFlexigen = Persist.readValue(this, "FLEXIGEN");
-        flexigenQuantity.setText("Flexigen quantity: " + counterFlexigen);
-        flexigenPrice.setText("Flexigen subtotal: $" + counterFlexigen*16 + ".00");
+        flexigenQuantity.setText("" + counterFlexigen); // Flexigen quantity
+        flexigenPrice.setText("$" + counterFlexigen*16); // Flexigen subtotal
+
+        // Removes compton from cart
+        removeFlexigen = findViewById(R.id.removeFlexigen);
+        removeFlexigen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Persist.deleteValue(getApplicationContext(), "FLEXIGEN");
+                startActivity(new Intent(CartActivity.this, CartActivity.class));
+            }
+        });
 
         // Number of times user adds fuelworks to their cart
         fuelworksQuantity = findViewById(R.id.fuelworksQuantity);
         fuelworksPrice = findViewById(R.id.fuelworksPrice);
         counterFuelworks = Persist.readValue(this, "FUELWORKS");
-        fuelworksQuantity.setText("Fuelworks quantity: " + counterFuelworks);
-        fuelworksPrice.setText("Fuelworks subtotal: $" + counterFuelworks*92 + ".00");
+        fuelworksQuantity.setText("" + counterFuelworks); // Fuelworks quantity
+        fuelworksPrice.setText("$" + counterFuelworks*92); // Fuelworks subtotal
+
+        // Removes compton from cart
+        removeFuelworks = findViewById(R.id.removeFuelworks);
+        removeFuelworks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Persist.deleteValue(getApplicationContext(), "FUELWORKS");
+                startActivity(new Intent(CartActivity.this, CartActivity.class));
+            }
+        });
 
         // Total cart value
         totalPrice = findViewById(R.id.totalPrice);
         total = counterCompton*44+counterComverges*33+counterFlexigen*16+counterFuelworks*92;
-        fuelworksPrice.setText("Total: $" + total + ".00");
+        totalPrice.setText("$" + total);
     }
 
     /** Creates the options in the action bar */
