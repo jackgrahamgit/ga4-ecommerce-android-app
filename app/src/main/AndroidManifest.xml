@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidappforgoogleanalytics4">
-
     <!-- Include the required permissions for Mobile Ads -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,34 +11,43 @@
         android:label="@string/store_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidAppForGoogleAnalytics4"> 
-
-        <!-- Connect with AdMob app ID -->
+        android:theme="@style/Theme.AndroidAppForGoogleAnalytics4">
+        <activity android:name=".OrderConfirmationActivity"></activity>
+        <activity android:name=".BillingInformationActivity" android:parentActivityName=".ShippingInformationActivity"/>
+        <activity android:name=".ShippingInformationActivity" android:parentActivityName=".CartActivity"/>
+        <activity android:name=".CartActivity" /> <!-- Connect with AdMob app ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5430752373775862~1101865194" />
-
-        <!-- Create activity for each product -->
-        <activity android:name=".ItemZappixActivity"></activity>
-        <activity android:name=".ItemPoyoActivity" />
-        <activity android:name=".ItemPigzartActivity" />
-        <activity android:name=".ItemMasonsActivity" />
-        <activity android:name=".ItemLunchpodActivity" />
-        <activity android:name=".ItemKioskActivity" />
-        <activity android:name=".ItemIsoterniaActivity" />
-        <activity android:name=".ItemFuturisActivity" />
-        <activity android:name=".ItemFuelworksActivity" />
-        <activity android:name=".ItemFlexigenActivity" />
-        <activity android:name=".ItemComvergesActivity" />
-        <activity android:name=".ItemComptonActivity" />
-        <activity android:name=".ProductsActivity" />
-        <activity android:name=".MainActivity">
+            android:value="ca-app-pub-5430752373775862~1101865194" /> <!-- Create activity for each product -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/store_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ProductsActivity"
+            android:label="@string/store_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ItemComptonActivity"
+            android:label="@string/store_name"
+            android:parentActivityName=".ProductsActivity" />
+        <activity
+            android:name=".ItemComvergesActivity"
+            android:label="@string/store_name"
+            android:parentActivityName=".ProductsActivity" />
+        <activity
+            android:name=".ItemFlexigenActivity"
+            android:label="@string/store_name"
+            android:parentActivityName=".ProductsActivity" />
+        <activity
+            android:name=".ItemFuelworksActivity"
+            android:label="@string/store_name"
+            android:parentActivityName=".ProductsActivity" />
     </application>
 
 </manifest>

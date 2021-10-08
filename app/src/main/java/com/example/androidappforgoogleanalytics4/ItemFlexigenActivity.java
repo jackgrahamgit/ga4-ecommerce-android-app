@@ -1,37 +1,60 @@
 package com.example.androidappforgoogleanalytics4;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 
-/** Import dependencies for Firebase */
-import com.google.firebase.analytics.FirebaseAnalytics;
-import android.os.Parcelable;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 
 public class ItemFlexigenActivity extends AppCompatActivity {
 
-    private FirebaseAnalytics mFirebaseAnalytics;
+    // "Add to cart" button and counter
+    private int counter;
+    private View btnAdd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_flexigen);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this); // Connects app activity with Firebase
+        btnAdd = findViewById(R.id.addToCart);
+        counter = Persist.readValue(this, "FLEXIGEN");
 
-        Bundle itemFlexigen = new Bundle();
-        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_ID, "b55da");
-        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_NAME, "Flexigen T-Shirt");
-        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Black");
-        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Flexigen");
-        itemFlexigen.putDouble(FirebaseAnalytics.Param.PRICE, 16.00);
+        // Increments "Add to cart" counter
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                counter++;
+                Persist.writeValue(getApplicationContext(), counter, "FLEXIGEN");
+            }
+        });
 
-        Bundle viewItemParams = new Bundle();
-        viewItemParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
-        viewItemParams.putDouble(FirebaseAnalytics.Param.VALUE, 16.00);
-        viewItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[] { itemFlexigen });
-
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.VIEW_ITEM, viewItemParams);
+        // Creates titles and actions for items in the action bar
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Ibby's T-Shirt Shop");
     }
+
+    /** Creates the options in the action bar */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    /** Sets the actions for the items in the action bar */
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.home) {
+            startActivity(new Intent(ItemFlexigenActivity.this, MainActivity.class));
+        }
+        if (item.getItemId() == R.id.cart) {
+            startActivity(new Intent(ItemFlexigenActivity.this, CartActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 }
