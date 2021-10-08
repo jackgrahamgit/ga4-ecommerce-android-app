@@ -9,6 +9,8 @@ import android.os.Parcelable;
 
 /** Import dependencies for navigating to a new screen */
 import android.content.Intent;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 public class ProductsActivity extends AppCompatActivity {
@@ -21,6 +23,7 @@ public class ProductsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_products);
 
+        // Connects app activity with Analytics
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         /** Create bundles for the items that appear on screen */
@@ -56,70 +59,6 @@ public class ProductsActivity extends AppCompatActivity {
         itemFuelworks.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Fuelworks");
         itemFuelworks.putDouble(FirebaseAnalytics.Param.PRICE, 92.00);
 
-        Bundle itemFuturis = new Bundle();
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_ID, "035f0");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_NAME, "Futuris T-Shirt");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Brown");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Futuris");
-        itemFuturis.putDouble(FirebaseAnalytics.Param.PRICE, 55.00);
-
-        Bundle itemIsoternia = new Bundle();
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_ID, "8835a");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_NAME, "Isoternia T-Shirt");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Blue");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Isoternia");
-        itemIsoternia.putDouble(FirebaseAnalytics.Param.PRICE, 57.00);
-
-        Bundle itemKiosk = new Bundle();
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_ID, "57b9d");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_NAME, "Kiosk T-Shirt");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Green");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Kiosk");
-        itemKiosk.putDouble(FirebaseAnalytics.Param.PRICE, 55.00);
-
-        Bundle itemLunchpod = new Bundle();
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_ID, "dc646");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_NAME, "Lunchpod T-Shirt");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Light Brown");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Lunchpod");
-        itemLunchpod.putDouble(FirebaseAnalytics.Param.PRICE, 90.00);
-
-        Bundle itemMasons = new Bundle();
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_ID, "7w9e0");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_NAME, "Masons T-Shirt");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Graphic Pink");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Masons");
-        itemMasons.putDouble(FirebaseAnalytics.Param.PRICE, 31.00);
-
-        Bundle itemPigzart = new Bundle();
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_ID, "239b5");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_NAME, "Pigzart T-Shirt");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Burgundy");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Pigzart");
-        itemPigzart.putDouble(FirebaseAnalytics.Param.PRICE, 82.00);
-
-        Bundle itemPoyo = new Bundle();
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_ID, "6d9b0");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_NAME, "Poyo T-Shirt");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Graphic Yellow");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Poyo");
-        itemPoyo.putDouble(FirebaseAnalytics.Param.PRICE, 62.00);
-
-        Bundle itemZappix = new Bundle();
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_ID, "6c3b0");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_NAME, "Zappix T-Shirt");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Dark Gray");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Zappix");
-        itemZappix.putDouble(FirebaseAnalytics.Param.PRICE, 99.00);
-
         /** The position of the displayed items by index */
         Bundle itemComptonWithIndex = new Bundle(itemCompton);
         itemComptonWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 1);
@@ -133,30 +72,6 @@ public class ProductsActivity extends AppCompatActivity {
         Bundle itemFuelworksWithIndex = new Bundle(itemFuelworks);
         itemFuelworksWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 4);
 
-        Bundle itemFuturisWithIndex = new Bundle(itemFuturis);
-        itemFuturisWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 5);
-
-        Bundle itemIsoterniaWithIndex = new Bundle(itemIsoternia);
-        itemIsoterniaWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 6);
-
-        Bundle itemKioskWithIndex = new Bundle(itemKiosk);
-        itemKioskWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 7);
-
-        Bundle itemLunchpodWithIndex = new Bundle(itemLunchpod);
-        itemLunchpodWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 8);
-
-        Bundle itemMasonsWithIndex = new Bundle(itemMasons);
-        itemMasonsWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 9);
-
-        Bundle itemPigzartWithIndex = new Bundle(itemPigzart);
-        itemPigzartWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 10);
-
-        Bundle itemPoyoWithIndex = new Bundle(itemPoyo);
-        itemPoyoWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 11);
-
-        Bundle itemZappixWithIndex = new Bundle(itemZappix);
-        itemZappixWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 12);
-
         /** Send a view_item_list event with the position of the items on screen */
         Bundle viewItemListParams = new Bundle();
         viewItemListParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
@@ -166,15 +81,7 @@ public class ProductsActivity extends AppCompatActivity {
                         itemComptonWithIndex,
                         itemComvergesWithIndex,
                         itemFlexigenWithIndex,
-                        itemFuelworksWithIndex,
-                        itemFuturisWithIndex,
-                        itemIsoterniaWithIndex,
-                        itemKioskWithIndex,
-                        itemLunchpodWithIndex,
-                        itemMasonsWithIndex,
-                        itemPigzartWithIndex,
-                        itemPoyoWithIndex,
-                        itemZappixWithIndex
+                        itemFuelworksWithIndex
                 });
         mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.VIEW_ITEM_LIST, viewItemListParams);
 
@@ -264,173 +171,23 @@ public class ProductsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
-    /** Activates after clicking the "Futuris" button */
-    public void openItemFuturis(View view) {
-        Bundle itemFuturis = new Bundle();
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_ID, "035f0");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_NAME, "Futuris T-Shirt");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Brown");
-        itemFuturis.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Futuris");
-        itemFuturis.putDouble(FirebaseAnalytics.Param.PRICE, 55.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemFuturis});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemFuturisActivity.class);
-        startActivity(intent);
+    /** Creates the options in the action bar */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
-    /** Activates after clicking the "Isoternia" button */
-    public void openItemIsoternia(View view) {
-        Bundle itemIsoternia = new Bundle();
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_ID, "8835a");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_NAME, "Isoternia T-Shirt");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Blue");
-        itemIsoternia.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Isoternia");
-        itemIsoternia.putDouble(FirebaseAnalytics.Param.PRICE, 57.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemIsoternia});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemIsoterniaActivity.class);
-        startActivity(intent);
-    }
-
-    /** Activates after clicking the "Kiosk" button */
-    public void openItemKiosk(View view) {
-        Bundle itemKiosk = new Bundle();
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_ID, "57b9d");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_NAME, "Kiosk T-Shirt");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Green");
-        itemKiosk.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Kiosk");
-        itemKiosk.putDouble(FirebaseAnalytics.Param.PRICE, 55.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemKiosk});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemKioskActivity.class);
-        startActivity(intent);
-    }
-
-    /** Activates after clicking the "Lunchpod" button */
-    public void openItemLunchpod(View view) {
-        Bundle itemLunchpod = new Bundle();
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_ID, "dc646");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_NAME, "Lunchpod T-Shirt");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Light Brown");
-        itemLunchpod.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Lunchpod");
-        itemLunchpod.putDouble(FirebaseAnalytics.Param.PRICE, 90.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemLunchpod});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemLunchpodActivity.class);
-        startActivity(intent);
-    }
-
-    /** Activates after clicking the "Masons" button */
-    public void openItemMasons(View view) {
-        Bundle itemMasons = new Bundle();
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_ID, "7w9e0");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_NAME, "Masons T-Shirt");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Graphic Pink");
-        itemMasons.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Masons");
-        itemMasons.putDouble(FirebaseAnalytics.Param.PRICE, 31.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemMasons});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemMasonsActivity.class);
-        startActivity(intent);
-    }
-
-    /** Activates after clicking the "Pigzart" button */
-    public void openItemPigzart(View view) {
-        Bundle itemPigzart = new Bundle();
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_ID, "239b5");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_NAME, "Pigzart T-Shirt");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Burgundy");
-        itemPigzart.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Pigzart");
-        itemPigzart.putDouble(FirebaseAnalytics.Param.PRICE, 82.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemPigzart});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemPigzartActivity.class);
-        startActivity(intent);
-    }
-
-    /** Activates after clicking the "Poyo" button */
-    public void openItemPoyo(View view) {
-        Bundle itemPoyo = new Bundle();
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_ID, "6d9b0");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_NAME, "Poyo T-Shirt");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Graphic Yellow");
-        itemPoyo.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Poyo");
-        itemPoyo.putDouble(FirebaseAnalytics.Param.PRICE, 62.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemPoyo});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemPoyoActivity.class);
-        startActivity(intent);
-    }
-
-    /** Activates after clicking the "Zappix" button */
-    public void openItemZappix(View view) {
-        Bundle itemZappix = new Bundle();
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_ID, "6c3b0");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_NAME, "Zappix T-Shirt");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Dark Gray");
-        itemZappix.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Zappix");
-        itemZappix.putDouble(FirebaseAnalytics.Param.PRICE, 99.00);
-
-        Bundle selectItemParams = new Bundle();
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
-        selectItemParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
-        selectItemParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{itemZappix});
-        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_ITEM, selectItemParams);
-
-        Intent intent = new Intent(ProductsActivity.this, ItemZappixActivity.class);
-        startActivity(intent);
+    /** Sets the actions for the items in the action bar */
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.home) {
+            startActivity(new Intent(ProductsActivity.this, MainActivity.class));
+        }
+        if (item.getItemId() == R.id.cart) {
+            startActivity(new Intent(ProductsActivity.this, CartActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }

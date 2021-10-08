@@ -1,10 +1,13 @@
 package com.example.androidappforgoogleanalytics4;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 /** Import dependencies for navigating to new screen */
 import android.content.Intent;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 /** Import dependencies for Firebase */
@@ -27,18 +30,39 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this); // Connects app activity with Firebase
+        // Connects app activity with Analytics
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        // Initialize listener for AdMob
+        // Initializes listener for AdMob
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
 
+        // Displays ad through AdMob
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+    }
+
+    /** Creates the options in the action bar */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    /** Sets the actions for the items in the action bar */
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.home) {
+            startActivity(new Intent(MainActivity.this, MainActivity.class));
+        }
+        if (item.getItemId() == R.id.cart) {
+            startActivity(new Intent(MainActivity.this, CartActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     /** Activates after clicking the "Clothes" button */

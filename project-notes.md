@@ -4,6 +4,8 @@ Notes about [the project](https://docs.google.com/presentation/d/1HCLVgkLAgYqzFO
 
 ## Work with a Git repository
 
+CURRENT ACCESS TOKEN: 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
+
 To checkout the code locally:
 
 1. Open GitHub.
@@ -72,7 +74,13 @@ You can then use that token for the life of the token.
 
 ## Important files
 
-You can easily see each file by opening the Project window on the top left. To see the project files easily:
+To import the files:
+
+1. Open Android Studio.
+1. Choose the "ecommerce-app" folder from the existing app option in the Android Studio dialog.
+1. Click Import.
+
+Once you import the project, you can see each file by opening the Project window on the top left. To see the project files easily:
 
 1. Click the "Android" drop down.
 1. Click "Project".
