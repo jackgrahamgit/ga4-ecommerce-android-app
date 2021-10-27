@@ -4,16 +4,16 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-/** Import dependencies for navigating to new screen */
+/* Import dependencies for navigating to new screen */
 import android.content.Intent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-/** Import dependencies for Firebase */
+/* Import dependencies for Firebase */
 import com.google.firebase.analytics.FirebaseAnalytics;
 
-/** Import dependencies for AdMob */
+/* Import dependencies for AdMob */
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -46,14 +46,14 @@ public class MainActivity extends AppCompatActivity {
         mAdView.loadAd(adRequest);
     }
 
-    /** Creates the options in the action bar */
+    /* Creates the options in the action bar */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
-    /** Sets the actions for the items in the action bar */
+    /* Sets the actions for the items in the action bar */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.home) {
@@ -65,10 +65,16 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /** Activates after clicking the "Clothes" button */
+    /* Activates after clicking the "Clothes" button */
     public void openEcommerce(View view) {
         Intent intent = new Intent(MainActivity.this, ProductsActivity.class);
         startActivity(intent);
+    }
+
+    /* Activates after clicking the "In-app purchase" button */
+    public void openInAppPurchase(View view) {
+        Intent intent = new Intent(MainActivity.this, InAppPurchaseActivity.class);
+        MainActivity.this.startActivity(intent);
     }
 
 }

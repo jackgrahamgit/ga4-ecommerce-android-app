@@ -1,53 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidappforgoogleanalytics4">
-    <!-- Include the required permissions for Mobile Ads -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- Include the required permissions for Mobile Ads -->
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/store_name"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      android:theme="@style/Theme.AndroidAppForGoogleAnalytics4">
+    <activity
+        android:name=".InAppPurchaseActivity"
+        android:label="@string/in_app"
+        android:exported="false"
+        android:parentActivityName=".MainActivity"/>
+    <activity android:name=".OrderConfirmationActivity" />
+    <activity
+        android:name=".BillingInformationActivity"
+        android:parentActivityName=".ShippingInformationActivity" />
+    <activity
+        android:name=".ShippingInformationActivity"
+        android:parentActivityName=".CartActivity" />
+    <activity android:name=".CartActivity" /> <!-- Connect with AdMob app ID -->
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/store_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity> <!-- Create activity for each product -->
+    <activity
+        android:name=".ProductsActivity"
         android:label="@string/store_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidAppForGoogleAnalytics4">
-        <activity android:name=".OrderConfirmationActivity"></activity>
-        <activity android:name=".BillingInformationActivity" android:parentActivityName=".ShippingInformationActivity"/>
-        <activity android:name=".ShippingInformationActivity" android:parentActivityName=".CartActivity"/>
-        <activity android:name=".CartActivity" /> <!-- Connect with AdMob app ID -->
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5430752373775862~1101865194" /> <!-- Create activity for each product -->
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/store_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".ItemComptonActivity"
+        android:label="@string/store_name"
+        android:parentActivityName=".ProductsActivity" />
+    <activity
+        android:name=".ItemComvergesActivity"
+        android:label="@string/store_name"
+        android:parentActivityName=".ProductsActivity" />
+    <activity
+        android:name=".ItemFlexigenActivity"
+        android:label="@string/store_name"
+        android:parentActivityName=".ProductsActivity" />
+    <activity
+        android:name=".ItemFuelworksActivity"
+        android:label="@string/store_name"
+        android:parentActivityName=".ProductsActivity" />
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-5430752373775862~1101865194" />
+  </application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".ProductsActivity"
-            android:label="@string/store_name"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".ItemComptonActivity"
-            android:label="@string/store_name"
-            android:parentActivityName=".ProductsActivity" />
-        <activity
-            android:name=".ItemComvergesActivity"
-            android:label="@string/store_name"
-            android:parentActivityName=".ProductsActivity" />
-        <activity
-            android:name=".ItemFlexigenActivity"
-            android:label="@string/store_name"
-            android:parentActivityName=".ProductsActivity" />
-        <activity
-            android:name=".ItemFuelworksActivity"
-            android:label="@string/store_name"
-            android:parentActivityName=".ProductsActivity" />
-    </application>
+  <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
