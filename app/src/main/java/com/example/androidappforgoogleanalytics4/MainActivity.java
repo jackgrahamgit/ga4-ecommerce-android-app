@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     /* Activates after clicking the "In-app purchase" button */
     public void openInAppPurchase(View view) {
         Intent intent = new Intent(MainActivity.this, InAppPurchaseActivity.class);
-        MainActivity.this.startActivity(intent);
+        startActivity(intent);
     }
 
 }

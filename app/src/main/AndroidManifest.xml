@@ -33,6 +33,10 @@
             android:label="@string/store_name"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".InAppPurchaseActivity"
+            android:label="@string/in_app"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".ItemComptonActivity"
             android:label="@string/store_name"
             android:parentActivityName=".ProductsActivity" />

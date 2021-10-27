@@ -14,6 +14,7 @@
     <string name="button_paypal">PayPal</string>
     <string name="button_purchase">Purchase</string>
     <string name="description_cart">Your cart</string>
+    <string name="description_cart_subtitle">Confirm the items in your shopping cart</string>
     <string name="description_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget gravida urna. Fusce odio urna, ornare accumsan lorem eu, dapibus facilisis nisi. In non lorem fringilla, dictum arcu a, pulvinar ex. Nulla efficitur odio at dui finibus, eu scelerisque purus dignissim.</string>
     <string name="description_products">All T-shirts</string>
     <string name="description_shipping_information">Shipping information</string>
