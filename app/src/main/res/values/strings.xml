@@ -42,5 +42,6 @@
     <string name="state">State</string>
     <string name="zip_code">Zip code</string>
     <string name="in_app">In-app purchases</string>
-    <string name="button_make_in_app">Make in-app purchase</string>
+    <string name="button_durable_in_app">Make durable in-app purchase</string>
+    <string name="button_consumable_in_app">Make consumable in-app purchase</string>
 </resources>
