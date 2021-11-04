@@ -68,7 +68,7 @@ You can then use that token for the life of the token.
 ## Project details
 
 * Name: Android App for Google Analytics 4
-* Package name: com.example.androidappforgoogleanalytics4
+* Package name: com.exemplary.androidappforgoogleanalytics4
 * Language: Java
 * Minimum SDK: API 16: Android 4.1 (Jelly Bean)
 
@@ -88,7 +88,7 @@ Once you import the project, you can see each file by opening the Project window
 
 These are the primary files we'll work on:
 
-* **app > src > main > java > com.example.androidappforgoogleanalytics4 > MainActivity**
+* **app > src > main > java > com.exemplary.androidappforgoogleanalytics4 > MainActivity**
 
     The entry point of the app. When you build and run the app, the system launches an instance of this Activity and loads its layout.
 
@@ -140,7 +140,7 @@ To add a string to the resource file:
 
 To add the string in a UI element:
 
-1. Open an Activity (for example, activity_main.xml).
+1. Open an Activity (for exemplary, activity_main.xml).
 1. Open "Attributes" on the right.
 1. Click "Pick a Resource" (the gray rectangle all the way to the right)
 
