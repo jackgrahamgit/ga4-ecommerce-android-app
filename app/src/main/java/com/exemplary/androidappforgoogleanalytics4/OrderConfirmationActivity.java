@@ -1,4 +1,4 @@
-package com.exemplary.androidappforgoogleanalytics4;
+package com.exemplary.itsAnApp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
