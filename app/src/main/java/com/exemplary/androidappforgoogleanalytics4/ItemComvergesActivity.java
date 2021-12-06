@@ -26,6 +26,9 @@ public class ItemComvergesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_comverges);
 
+        // Connects app activity with Analytics
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
         btnAdd = findViewById(R.id.addToCart);
         counter = Persist.readValue(this, "COMVERGES");
 
@@ -33,6 +36,26 @@ public class ItemComvergesActivity extends AppCompatActivity {
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /** Create bundle for the item that appears on screen */
+                Bundle itemCompton = new Bundle();
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_ID, "MAIN f6be8");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_NAME, "MAIN Comverges T-Shirt");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "MAIN T-Shirts");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "MAIN Black");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_BRAND, "MAIN Comverges");
+                itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 33.00);
+
+                Bundle itemComptonCart = new Bundle(itemCompton);
+                itemComptonCart.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
+
+                Bundle addToCartParams = new Bundle();
+                addToCartParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
+                addToCartParams.putDouble(FirebaseAnalytics.Param.VALUE, 33.00);
+                addToCartParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
+                        new Parcelable[]{ itemComptonCart });
+
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ADD_TO_CART, addToCartParams);
+
                 counter++;
                 Persist.writeValue(getApplicationContext(), counter, "COMVERGES");
             }
@@ -41,44 +64,46 @@ public class ItemComvergesActivity extends AppCompatActivity {
 
     /** Activates after clicking the "Add to cart" button */
     public void addToCart(View view) {
-        Bundle itemComverges = new Bundle();
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_ID, "f6be8");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_NAME, "comverges");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "shirt");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "black");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Ibby's T-Shirt Shop");
-        itemComverges.putDouble(FirebaseAnalytics.Param.PRICE, 33.00);
+        /** Create bundle for the item that appears on screen */
+        Bundle itemCompton = new Bundle();
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_ID, "f6be8");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_NAME, "Comverges T-Shirt");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Black");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Comverges");
+        itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 33.00);
 
-        Bundle itemComvergesCart = new Bundle(itemComverges);
-        itemComvergesCart.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
+        Bundle itemComptonCart = new Bundle(itemCompton);
+        itemComptonCart.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
 
         Bundle addToCartParams = new Bundle();
         addToCartParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
-        addToCartParams.putDouble(FirebaseAnalytics.Param.VALUE, 1 * 33.00);
+        addToCartParams.putDouble(FirebaseAnalytics.Param.VALUE, 33.00);
         addToCartParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{ itemComvergesCart });
+                new Parcelable[]{ itemComptonCart });
 
         mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ADD_TO_CART, addToCartParams);
     }
 
     /** Activates after clicking the "Add to wishlist" button */
     public void addToWishlist(View view) {
-        Bundle itemComverges = new Bundle();
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_ID, "f6be8");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_NAME, "comverges");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "shirt");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "black");
-        itemComverges.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Ibby's T-Shirt Shop");
-        itemComverges.putDouble(FirebaseAnalytics.Param.PRICE, 33.00);
+        /** Create bundle for the item that appears on screen */
+        Bundle itemCompton = new Bundle();
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_ID, "f6be8");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_NAME, "Comverges T-Shirt");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Black");
+        itemCompton.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Comverges");
+        itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 33.00);
 
-        Bundle itemComvergesCart = new Bundle(itemComverges);
-        itemComvergesCart.putLong(FirebaseAnalytics.Param.QUANTITY, 2);
+        Bundle itemComptonWishlist = new Bundle(itemCompton);
+        itemComptonWishlist.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
 
         Bundle addToWishlistParams = new Bundle();
         addToWishlistParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
-        addToWishlistParams.putDouble(FirebaseAnalytics.Param.VALUE, 1 * 33.00);
+        addToWishlistParams.putDouble(FirebaseAnalytics.Param.VALUE, 33.00);
         addToWishlistParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                new Parcelable[]{ itemComvergesCart });
+                new Parcelable[]{ itemComptonWishlist });
 
         mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ADD_TO_WISHLIST, addToWishlistParams);
 

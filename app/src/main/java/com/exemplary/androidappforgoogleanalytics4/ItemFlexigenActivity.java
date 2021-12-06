@@ -9,7 +9,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 public class ItemFlexigenActivity extends AppCompatActivity {
+
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     // "Add to cart" button and counter
     private int counter;
@@ -20,6 +24,9 @@ public class ItemFlexigenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_flexigen);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        // Connects app activity with Analytics
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         btnAdd = findViewById(R.id.addToCart);
         counter = Persist.readValue(this, "FLEXIGEN");
