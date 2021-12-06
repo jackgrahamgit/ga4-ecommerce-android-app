@@ -9,13 +9,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c1c3378c-1565-438f-84ec-73a57f159574" name="Default Changelist" comment="Added remaining unchecked">
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+=======
+    <list default="true" id="c1c3378c-1565-438f-84ec-73a57f159574" name="Default Changelist" comment="Added remaining unchecked files">
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+>>>>>>> 29a9a98b233ce02866b9d14dba67996b5df154d6
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+>>>>>>> 29a9a98b233ce02866b9d14dba67996b5df154d6
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -26,18 +37,44 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComptonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComptonActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComvergesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComvergesActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemFlexigenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemFlexigenActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.aab" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/exemplary/androidappforgoogleanalytics4/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/exemplary/androidappforgoogleanalytics4/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/BillingInformationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/BillingInformationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/CartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/CartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/InAppPurchaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/InAppPurchaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComptonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComptonActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComvergesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemComvergesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemFlexigenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemFlexigenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemFuelworksActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ItemFuelworksActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/OrderConfirmationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/OrderConfirmationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/Persist.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/Persist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ProductsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ProductsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ShippingInformationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/exemplary/androidappforgoogleanalytics4/ShippingInformationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/exemplary/androidappforgoogleanalytics4/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/exemplary/androidappforgoogleanalytics4/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/project-notes.md" afterDir="false" />
+>>>>>>> 29a9a98b233ce02866b9d14dba67996b5df154d6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/jackgraham/.android/avd/Pixel_3a_API_30_x86.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/aoppenheimer/.android/avd/Pixel_C_10in_tablet_API_30.avd]" />
+>>>>>>> 29a9a98b233ce02866b9d14dba67996b5df154d6
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -98,7 +135,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+>>>>>>> 29a9a98b233ce02866b9d14dba67996b5df154d6
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
@@ -237,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637174968084</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added remaining unchecked files">
+      <created>1637175631945</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637175631945</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +309,7 @@
     <MESSAGE value="Added java files" />
     <MESSAGE value="Added persist" />
     <MESSAGE value="Added remaining unchecked" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added remaining unchecked" />
+    <MESSAGE value="Added remaining unchecked files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added remaining unchecked files" />
   </component>
 </project>

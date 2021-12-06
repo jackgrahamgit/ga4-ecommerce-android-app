@@ -68,7 +68,7 @@ You can then use that token for the life of the token.
 ## Project details
 
 * Name: Android App for Google Analytics 4
-* Package name: com.exemplary.androidappforgoogleanalytics4
+* Package name: com.exemplary.itsAnApp
 * Language: Java
 * Minimum SDK: API 16: Android 4.1 (Jelly Bean)
 
@@ -88,7 +88,7 @@ Once you import the project, you can see each file by opening the Project window
 
 These are the primary files we'll work on:
 
-* **app > src > main > java > com.exemplary.androidappforgoogleanalytics4 > MainActivity**
+* **app > src > main > java > com.exemplary.itsAnApp > MainActivity**
 
     The entry point of the app. When you build and run the app, the system launches an instance of this Activity and loads its layout.
 

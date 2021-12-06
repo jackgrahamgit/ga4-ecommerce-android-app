@@ -1,4 +1,4 @@
-package com.exemplary.androidappforgoogleanalytics4;
+package com.exemplary.itsAnApp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class exemplaryInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.exemplary.androidappforgoogleanalytics4", appContext.getPackageName());
+        assertEquals("com.exemplary.itsAnApp", appContext.getPackageName());
     }
 }

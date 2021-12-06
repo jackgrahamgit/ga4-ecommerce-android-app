@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.exemplary.androidappforgoogleanalytics4">
+    package="com.exemplary.itsAnApp">
     <!-- Include the required permissions for Mobile Ads -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,7 +11,7 @@
         android:label="@string/store_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidAppForGoogleAnalytics4">
+        android:theme="@style/Theme.itsAnApp">
         <activity android:name=".OrderConfirmationActivity"></activity>
         <activity android:name=".BillingInformationActivity" android:parentActivityName=".ShippingInformationActivity"/>
         <activity android:name=".ShippingInformationActivity" android:parentActivityName=".CartActivity"/>
