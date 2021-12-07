@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 /* Import dependencies for navigating to new screen */
 import android.content.Intent;
+import android.os.Parcelable;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,6 +33,26 @@ public class MainActivity extends AppCompatActivity {
 
         // Connects app activity with Analytics
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
+        Bundle itemFlexigen = new Bundle();
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_ID, "b55da");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_NAME, "Flexigen T-Shirt");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Black");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Flexigen");
+        itemFlexigen.putDouble(FirebaseAnalytics.Param.PRICE, 16.00);
+
+        Bundle promoParams = new Bundle();
+        promoParams.putString(FirebaseAnalytics.Param.PROMOTION_ID, "SUMMER_DISCOUNT");
+        promoParams.putString(FirebaseAnalytics.Param.PROMOTION_NAME, "Summer Sale");
+        promoParams.putString(FirebaseAnalytics.Param.CREATIVE_NAME, "Summer Promotion");
+        promoParams.putString(FirebaseAnalytics.Param.CREATIVE_SLOT, "Featured Product");
+        promoParams.putString(FirebaseAnalytics.Param.LOCATION_ID, "HOME_BANNER");
+        promoParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
+                new Parcelable[]{ itemFlexigen });
+
+        // Promotion selected
+        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.VIEW_PROMOTION, promoParams);
 
         // Initializes listener for AdMob
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -74,6 +95,31 @@ public class MainActivity extends AppCompatActivity {
     /* Activates after clicking the "In-app purchase" button */
     public void openInAppPurchase(View view) {
         Intent intent = new Intent(MainActivity.this, InAppPurchaseActivity.class);
+        startActivity(intent);
+    }
+
+    public void openPromotion(View view) {
+        Bundle itemFlexigen = new Bundle();
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_ID, "b55da");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_NAME, "Flexigen T-Shirt");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Black");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Flexigen");
+        itemFlexigen.putDouble(FirebaseAnalytics.Param.PRICE, 16.00);
+
+        Bundle promoParams = new Bundle();
+        promoParams.putString(FirebaseAnalytics.Param.PROMOTION_ID, "SUMMER_DISCOUNT");
+        promoParams.putString(FirebaseAnalytics.Param.PROMOTION_NAME, "Summer Sale");
+        promoParams.putString(FirebaseAnalytics.Param.CREATIVE_NAME, "Summer Promotion");
+        promoParams.putString(FirebaseAnalytics.Param.CREATIVE_SLOT, "Featured Product");
+        promoParams.putString(FirebaseAnalytics.Param.LOCATION_ID, "HOME_BANNER");
+        promoParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
+                new Parcelable[]{ itemFlexigen });
+
+        // Promotion selected
+        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_PROMOTION, promoParams);
+
+        Intent intent = new Intent(MainActivity.this, ItemFlexigenActivity.class);
         startActivity(intent);
     }
 

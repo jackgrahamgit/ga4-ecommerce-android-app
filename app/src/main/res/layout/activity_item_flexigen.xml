@@ -73,6 +73,7 @@
             android:layout_height="wrap_content"
             android:enabled="true"
             android:text="@string/button_add_to_wishlist"
+            android:onClick="addToWishlist"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     </LinearLayout>

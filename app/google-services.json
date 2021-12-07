@@ -7,13 +7,67 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:628880543634:android:e961de0bbaee9ee533bb4b",
+        "android_client_info": {
+          "package_name": "com.examplary.basicrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628880543634-s2c79cuehd9utkqvlgde7neas4138nkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgII3m85ck8Fd4hW51GPi7ohrknLZKJV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628880543634-s2c79cuehd9utkqvlgde7neas4138nkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628880543634:android:8dafd3b0ea630dc133bb4b",
+        "android_client_info": {
+          "package_name": "com.examplary.basicsetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628880543634-s2c79cuehd9utkqvlgde7neas4138nkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgII3m85ck8Fd4hW51GPi7ohrknLZKJV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628880543634-s2c79cuehd9utkqvlgde7neas4138nkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:628880543634:android:dd324fa9852577a933bb4b",
         "android_client_info": {
-<<<<<<< HEAD
-          "package_name": "com.example.androidappforgoogleanalytics4"
-=======
-          "package_name": "com.exemplary.itsAnApp"
->>>>>>> 29a9a98b233ce02866b9d14dba67996b5df154d6
+          "package_name": "com.example.itsAnApp"
         }
       },
       "oauth_client": [
@@ -100,7 +154,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:628880543634:android:fba3ffe61abf3bd633bb4b",
         "android_client_info": {
-          "package_name": "com.exemplary.androidappforgoogleanalytics4"
+          "package_name": "com.exemplary.itsAnApp"
         }
       },
       "oauth_client": [

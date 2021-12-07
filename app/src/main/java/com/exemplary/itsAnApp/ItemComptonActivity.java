@@ -35,11 +35,32 @@ public class ItemComptonActivity extends AppCompatActivity {
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /** Create bundle for the item that appears on screen */
+                Bundle itemCompton = new Bundle();
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_ID, "9bdd2");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_NAME, "Compton T-Shirt");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Yellow");
+                itemCompton.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Compton");
+                itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 44.00);                itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 33.00);
+
+                Bundle itemComptonCart = new Bundle(itemCompton);
+                itemComptonCart.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
+
+                Bundle addToCartParams = new Bundle();
+                addToCartParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
+                addToCartParams.putDouble(FirebaseAnalytics.Param.VALUE, 44.00);
+                addToCartParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
+                        new Parcelable[]{ itemComptonCart });
+
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ADD_TO_CART, addToCartParams);
+
                 counter++;
-                Persist.writeValue(getApplicationContext(), counter, "COMPTON");
+                Persist.writeValue(getApplicationContext(), counter, "COMVERGES");
+//                counter++;
+//                Persist.writeValue(getApplicationContext(), counter, "COMPTON");
             }
         });
-
 
         // Creates titles and actions for items in the action bar
         ActionBar actionBar = getSupportActionBar();

@@ -6,6 +6,7 @@
     <string name="button_checkout">Begin checkout</string>
     <string name="button_clothes">Clothes</string>
     <string name="button_in_app_purchases">In-app purchases</string>
+    <string name="button_more_tests">Run more tests</string>
     <string name="button_next">Next: Billing</string>
     <string name="button_view_item">View item</string>
     <string name="button_visa">Visa</string>
@@ -31,7 +32,7 @@
     <string name="price_comverges">$33.00</string>
     <string name="price_flexigen">$16.00</string>
     <string name="price_fuelworks">$92.00</string>
-    <string name="button_view_promotion">View promotion</string>
+    <string name="button_view_promotion">Get 10% off Flexigen</string>
     <string name="description_confirmation">Order confirmed!</string>
     <string name="button_home">Home</string>
     <string name="button_refund">Get a refund</string>
@@ -44,4 +45,13 @@
     <string name="in_app">In-app purchases</string>
     <string name="button_durable_in_app">Make durable in-app purchase</string>
     <string name="button_consumable_in_app">Make consumable in-app purchase</string>
+    <string name="title_activity_test">TestActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

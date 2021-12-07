@@ -137,27 +137,6 @@
             android:layout_height="wrap_content"
             android:padding="8dp">
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/button_view_promotion"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp" />
-
-        </RelativeLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp">
-
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="120dp"
