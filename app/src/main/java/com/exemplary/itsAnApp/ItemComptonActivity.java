@@ -42,7 +42,7 @@ public class ItemComptonActivity extends AppCompatActivity {
                 itemCompton.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
                 itemCompton.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Yellow");
                 itemCompton.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Compton");
-                itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 44.00);                itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 33.00);
+                itemCompton.putDouble(FirebaseAnalytics.Param.PRICE, 44.00);
 
                 Bundle itemComptonCart = new Bundle(itemCompton);
                 itemComptonCart.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
@@ -56,9 +56,7 @@ public class ItemComptonActivity extends AppCompatActivity {
                 mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ADD_TO_CART, addToCartParams);
 
                 counter++;
-                Persist.writeValue(getApplicationContext(), counter, "COMVERGES");
-//                counter++;
-//                Persist.writeValue(getApplicationContext(), counter, "COMPTON");
+                Persist.writeValue(getApplicationContext(), counter, "COMPTON");
             }
         });
 
