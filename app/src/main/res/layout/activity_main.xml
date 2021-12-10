@@ -61,7 +61,7 @@
         android:id="@+id/button4"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:onClick="openPromotion"
+        android:onClick="openTests"
         android:text="@string/button_more_tests"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

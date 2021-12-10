@@ -17,7 +17,11 @@ public class CartActivity extends AppCompatActivity {
 
     private FirebaseAnalytics mFirebaseAnalytics;
 
-    private TextView comptonQuantity, comptonPrice, comvergesQuantity, comvergesPrice, flexigenQuantity, flexigenPrice, fuelworksQuantity, fuelworksPrice, totalPrice;
+    private TextView comptonQuantity, comptonPrice,
+            comvergesQuantity, comvergesPrice,
+            flexigenQuantity, flexigenPrice,
+            fuelworksQuantity, fuelworksPrice,
+            totalPrice;
     private int counterCompton, counterComverges, counterFlexigen, counterFuelworks, total;
     private View removeCompton, removeComverges, removeFlexigen, removeFuelworks;
 
@@ -190,14 +194,20 @@ public class CartActivity extends AppCompatActivity {
         mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.VIEW_CART, viewCartParams);
     }
 
-    /** Creates the options in the action bar */
+    // Begin the checkout process
+    public void openShippingInformation(View view) {
+        Intent intent = new Intent(CartActivity.this, ShippingInformationActivity.class);
+        startActivity(intent);
+    }
+
+    // Creates the options in the action bar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
-    /** Sets the actions for the items in the action bar */
+    // Sets the actions for the items in the action bar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.home) {
@@ -207,11 +217,5 @@ public class CartActivity extends AppCompatActivity {
             startActivity(new Intent(CartActivity.this, CartActivity.class));
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    /** Begin the checkout process */
-    public void openShippingInformation(View view) {
-        Intent intent = new Intent(CartActivity.this, ShippingInformationActivity.class);
-        startActivity(intent);
     }
 }

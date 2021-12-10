@@ -17,7 +17,6 @@ public class ProductsActivity extends AppCompatActivity {
 
     private FirebaseAnalytics mFirebaseAnalytics;
 
-    /** Send a view_item_list event with the item details and positions on screen */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +25,6 @@ public class ProductsActivity extends AppCompatActivity {
         // Connects app activity with Analytics
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        /** Create bundles for the items that appear on screen */
         Bundle itemCompton = new Bundle();
         itemCompton.putString(FirebaseAnalytics.Param.ITEM_ID, "9bdd2");
         itemCompton.putString(FirebaseAnalytics.Param.ITEM_NAME, "Compton T-Shirt");
@@ -59,7 +57,7 @@ public class ProductsActivity extends AppCompatActivity {
         itemFuelworks.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Fuelworks");
         itemFuelworks.putDouble(FirebaseAnalytics.Param.PRICE, 92.00);
 
-        /** The position of the displayed items by index */
+        // The position of the displayed items by index
         Bundle itemComptonWithIndex = new Bundle(itemCompton);
         itemComptonWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 1);
 
@@ -72,7 +70,7 @@ public class ProductsActivity extends AppCompatActivity {
         Bundle itemFuelworksWithIndex = new Bundle(itemFuelworks);
         itemFuelworksWithIndex.putLong(FirebaseAnalytics.Param.INDEX, 4);
 
-        /** Send a view_item_list event with the position of the items on screen */
+        // Send a view_item_list event with the position of the items on screen
         Bundle viewItemListParams = new Bundle();
         viewItemListParams.putString(FirebaseAnalytics.Param.ITEM_LIST_ID, "A002");
         viewItemListParams.putString(FirebaseAnalytics.Param.ITEM_LIST_NAME, "All T-shirts");
@@ -87,7 +85,6 @@ public class ProductsActivity extends AppCompatActivity {
 
     }
 
-    /** Activates after clicking the "Compton" button */
     public void openItemCompton(View view) {
         Bundle itemCompton = new Bundle();
         itemCompton.putString(FirebaseAnalytics.Param.ITEM_ID, "9bdd2");
@@ -108,7 +105,6 @@ public class ProductsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /** Activates after clicking the "Comverges" button */
     public void openItemComverges(View view) {
         Bundle itemComverges = new Bundle();
         itemComverges.putString(FirebaseAnalytics.Param.ITEM_ID, "f6be8");
@@ -129,7 +125,6 @@ public class ProductsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /** Activates after clicking the "Flexigen" button */
     public void openItemFlexigen(View view) {
         Bundle itemFlexigen = new Bundle();
         itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_ID, "b55da");
@@ -150,7 +145,6 @@ public class ProductsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /** Activates after clicking the "Fuelworks" button */
     public void openItemFuelworks(View view) {
         Bundle itemFuelworks = new Bundle();
         itemFuelworks.putString(FirebaseAnalytics.Param.ITEM_ID, "bc823");
@@ -171,14 +165,14 @@ public class ProductsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /** Creates the options in the action bar */
+    // Creates the options in the action bar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
-    /** Sets the actions for the items in the action bar */
+    // Sets the actions for the items in the action bar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.home) {

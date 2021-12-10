@@ -1,5 +1,6 @@
 package com.exemplary.itsAnApp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,11 +8,13 @@ import android.os.Bundle;
 /* Import dependencies for navigating to new screen */
 import android.content.Intent;
 import android.os.Parcelable;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 /* Import dependencies for Firebase */
+import com.google.android.gms.ads.LoadAdError;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 /* Import dependencies for AdMob */
@@ -20,11 +23,14 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 public class MainActivity extends AppCompatActivity {
 
     private FirebaseAnalytics mFirebaseAnalytics;
     private AdView mAdView;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,34 +71,31 @@ public class MainActivity extends AppCompatActivity {
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+//        InterstitialAd.load(this,"ca-app-pub-3940256099942544/1033173712", adRequest,
+//                new InterstitialAdLoadCallback() {
+//                    @Override
+//                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+//                        // The mInterstitialAd reference will be null until
+//                        // an ad is loaded.
+//                        mInterstitialAd = interstitialAd;
+//                        Log.i(TAG, "onAdLoaded");
+//                    }
+//
+//                    @Override
+//                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+//                        // Handle the error
+//                        Log.i(TAG, loadAdError.getMessage());
+//                        mInterstitialAd = null;
+//                    }
+//        }
     }
 
-    /* Creates the options in the action bar */
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    /* Sets the actions for the items in the action bar */
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.home) {
-            startActivity(new Intent(MainActivity.this, MainActivity.class));
-        }
-        if (item.getItemId() == R.id.cart) {
-            startActivity(new Intent(MainActivity.this, CartActivity.class));
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    /* Activates after clicking the "Clothes" button */
     public void openEcommerce(View view) {
         Intent intent = new Intent(MainActivity.this, ProductsActivity.class);
         startActivity(intent);
     }
 
-    /* Activates after clicking the "In-app purchase" button */
     public void openInAppPurchase(View view) {
         Intent intent = new Intent(MainActivity.this, InAppPurchaseActivity.class);
         startActivity(intent);
@@ -123,4 +126,27 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openTests(View view) {
+        Intent intent = new Intent(MainActivity.this, TestActivity.class);
+        startActivity(intent);
+    }
+
+    // Creates the options in the action bar
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    // Sets the actions for the items in the action bar
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.home) {
+            startActivity(new Intent(MainActivity.this, MainActivity.class));
+        }
+        if (item.getItemId() == R.id.cart) {
+            startActivity(new Intent(MainActivity.this, CartActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

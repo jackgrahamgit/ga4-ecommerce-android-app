@@ -15,8 +15,6 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 public class ItemFlexigenActivity extends AppCompatActivity {
 
     private FirebaseAnalytics mFirebaseAnalytics;
-
-    // "Add to cart" button and counter
     private int counter;
     private View btnAdd;
 
@@ -24,46 +22,42 @@ public class ItemFlexigenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_flexigen);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Connects app activity with Analytics
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+    }
 
+    public void addToCart(View view) {
+        // Gets the button by ID from the XML file
         btnAdd = findViewById(R.id.addToCart);
+
+        // Reads the value using the method in Persist.java
         counter = Persist.readValue(this, "FLEXIGEN");
 
-        // Increments "Add to cart" counter
-        btnAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                /** Create bundle for the item that appears on screen */
-                Bundle itemFlexigen = new Bundle();
-                itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_ID, "b55da");
-                itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_NAME, "Flexigen T-Shirt");
-                itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
-                itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Black");
-                itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Flexigen");
-                itemFlexigen.putDouble(FirebaseAnalytics.Param.PRICE, 16.00);
+        Bundle itemFlexigen = new Bundle();
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_ID, "b55da");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_NAME, "Flexigen T-Shirt");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, "T-Shirts");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_VARIANT, "Black");
+        itemFlexigen.putString(FirebaseAnalytics.Param.ITEM_BRAND, "Flexigen");
+        itemFlexigen.putDouble(FirebaseAnalytics.Param.PRICE, 16.00);
 
-                Bundle itemFlexigenCart = new Bundle(itemFlexigen);
-                itemFlexigenCart.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
+        Bundle itemFlexigenCart = new Bundle(itemFlexigen);
+        itemFlexigenCart.putLong(FirebaseAnalytics.Param.QUANTITY, 1);
 
-                Bundle addToCartParams = new Bundle();
-                addToCartParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
-                addToCartParams.putDouble(FirebaseAnalytics.Param.VALUE, 16.00);
-                addToCartParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
-                        new Parcelable[]{ itemFlexigenCart });
+        Bundle addToCartParams = new Bundle();
+        addToCartParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
+        addToCartParams.putDouble(FirebaseAnalytics.Param.VALUE, 16.00);
+        addToCartParams.putParcelableArray(FirebaseAnalytics.Param.ITEMS,
+                new Parcelable[]{ itemFlexigenCart });
 
-                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ADD_TO_CART, addToCartParams);
+        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ADD_TO_CART, addToCartParams);
 
-                counter++;
-                Persist.writeValue(getApplicationContext(), counter, "FLEXIGEN");
-            }
-        });
+        counter++;
+        Persist.writeValue(getApplicationContext(), counter, "FLEXIGEN");
 
-        // Creates titles and actions for items in the action bar
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Ibby's T-Shirt Shop");
+        Intent intent = new Intent(ItemFlexigenActivity.this, ProductsActivity.class);
+        startActivity(intent);
     }
 
     /** Activates after clicking the "Add to wishlist" button */
