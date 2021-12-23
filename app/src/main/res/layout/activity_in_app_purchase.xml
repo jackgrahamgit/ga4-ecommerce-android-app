@@ -7,14 +7,22 @@ android:paddingRight="16dp"
 android:gravity="center"
 android:orientation="vertical">
   <Button
-      android:id="@+id/button3"
+      android:id="@+id/purchase_button"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/button_consumable_in_app" />
+      android:text="@string/button_consumable_in_app"
+      android:onClick="purchase"
+      />
   <Button
-      android:id="@+id/button4"
+      android:id="@+id/durable"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="15dp"
       android:text="@string/button_durable_in_app" />
+  <TextView
+      android:id="@+id/purchase_status"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      />
 </LinearLayout>
