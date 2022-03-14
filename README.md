@@ -19,5 +19,5 @@ To import the project:
 1. Open Android Studio.
 1. Click **File** > **New** > **Project from Version Control...** from **Version Control** > **GitHub**.
 2. Select **Git** as the version control.
-4. Enter the link `https://github.com/jackgrahamgit/ecommerce-app/` as the URL to the repository.
+4. Enter the URL to the repository.
 5. Choose the directory where you want to save the project and click **Clone**.
