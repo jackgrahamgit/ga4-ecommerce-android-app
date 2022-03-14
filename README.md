@@ -1,6 +1,6 @@
 # Measure ecommerce events on mobile
 
-This Android project demonstrates how to implement ecommerce events so you can measure user behavior through Google Analytics.
+This Android project demonstrates how to implement ecommerce events so you can measure user behavior using the Google Analytics for Firebase SDK.
 
 ## Before you begin
 
