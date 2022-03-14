@@ -1,6 +1,6 @@
 # Measure ecommerce events on a mobile app
 
-This Android project demonstrates how to implement ecommerce events so you can measure user behavior through Google Analytics.
+This project demonstrates how to implement ecommerce events in an Android mobile app so you can measure user behavior through Google Analytics.
 
 ## Before you begin
 
