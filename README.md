@@ -25,4 +25,4 @@ To import the project:
 
 To collect data from the Android app in your Analytics property, you need to add an Android app data stream to your property.
 
-Recommended: Enable debug mode so you can see the ecommerce events in realtime. [Learn more](https://developers.devsite.corp.google.com/analytics/devguides/collection/ga4/debug?technology=apps#android)
+We recommend that you [enable debug mode](https://developers.devsite.corp.google.com/analytics/devguides/collection/ga4/debug?technology=apps#android) so you can see the ecommerce events in realtime.
