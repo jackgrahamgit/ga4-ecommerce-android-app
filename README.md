@@ -1,6 +1,6 @@
 # Measure ecommerce events on a mobile app
 
-This project demonstrates how to implement ecommerce events in an Android mobile app so you can measure user behavior through Google Analytics.
+This project demonstrates how to implement ecommerce events in an Android mobile app so you can measure user behavior in a Google Analytics 4 property.
 
 ## Before you begin
 
@@ -21,8 +21,14 @@ To import the project:
 4. Enter the URL to the repository.
 5. Choose the directory where you want to save the project and click **Clone**.
 
-## Connect your Google Analytics 4 property
+## Connect the app to your Google Analytics 4 property
 
-To collect data from the Android app in your Analytics property, you need to add an Android app data stream to your property.
+You need to add an Android app data stream to your property to collect data from the Android app in your Analytics property.
 
-We recommend that you [enable debug mode](https://developers.devsite.corp.google.com/analytics/devguides/collection/ga4/debug?technology=apps#android) so you can see the ecommerce events in realtime.
+To connect the app to your property:
+
+1. In Google Analytics, go to **Admin** > **Data Streams**.
+1. Click **Add stream** > **Android app**.
+2. Follow the steps on the screen to connect the app.
+
+We recommend that you [enable debug mode](https://developers.devsite.corp.google.com/analytics/devguides/collection/ga4/debug?technology=apps#android) so you can see the ecommerce events in your Analyitcs property in realtime.
