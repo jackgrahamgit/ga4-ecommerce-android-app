@@ -5,7 +5,7 @@ This Android project demonstrates how to implement ecommerce events so you can m
 ## Before you begin
 
 * Install or update [Android Studio](https://developer.android.com/studio) to its latest version.
-* Set up a physical device or use an emulator to run the project.
+* Set up a physical device or an emulator to run the project.
 
 ## Getting started
 
@@ -17,6 +17,6 @@ To launch the app:
 To import the project:
 
 1. Open Android Studio.
-1. Click File > New > Project from Version Control > GitHub.
+1. Click **File** > **New** > **Project** from **Version Control** > **GitHub**.
 1. Enter your username and password.
-1. Select the repository and click Clone.
+1. Select the repository and click **Clone**.
