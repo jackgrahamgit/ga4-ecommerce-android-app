@@ -20,3 +20,9 @@ To import the project:
 2. Select **Git** as the version control system.
 4. Enter the URL to the repository.
 5. Choose the directory where you want to save the project and click **Clone**.
+
+## Connect your Google Analytics 4 property
+
+To collect data from the Android app in your Analytics property, you need to add an Android app data stream to your property.
+
+Recommended: Enable debug mode so you can see the ecommerce events in realtime. [Learn more](https://developers.devsite.corp.google.com/analytics/devguides/collection/ga4/debug?technology=apps#android)
