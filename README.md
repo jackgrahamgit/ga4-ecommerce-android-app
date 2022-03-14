@@ -17,6 +17,6 @@ To launch the app:
 To import the project:
 
 1. In Android Studio, click **File** > **New** > **Project from Version Control...**
-2. Select **Git** as the version control.
+2. Select **Git** as the version control system.
 4. Enter the URL to the repository.
 5. Choose the directory where you want to save the project and click **Clone**.
