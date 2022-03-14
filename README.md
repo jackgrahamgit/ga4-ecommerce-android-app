@@ -12,11 +12,12 @@ This Android project demonstrates how to implement ecommerce events so you can m
 To launch the app:
 
 1. Import the project into Android Studio.
-1. Build and run the project.
+2. Build and run the project.
 
 To import the project:
 
 1. Open Android Studio.
-1. Click **File** > **New** > **Project** from **Version Control** > **GitHub**.
-1. Enter your username and password.
-1. Select the repository and click **Clone**.
+1. Click **File** > **New** > **Project from Version Control...** from **Version Control** > **GitHub**.
+2. Select **Git** as the version control.
+4. Enter the link `https://github.com/jackgrahamgit/ecommerce-app/` as the URL to the repository.
+5. Choose the directory where you want to save the project and click **Clone**.
