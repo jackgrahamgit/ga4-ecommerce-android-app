@@ -5,7 +5,7 @@ This Android project demonstrates how to implement ecommerce events so you can m
 ## Before you begin
 
 * Install or update [Android Studio](https://developer.android.com/studio) to its latest version.
-* Set up a physical device or an emulator to run the project.
+* Set up an emulator or physical device to run the project.
 
 ## Get started
 
