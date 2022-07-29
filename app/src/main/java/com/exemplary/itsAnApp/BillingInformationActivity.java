@@ -1,7 +1,6 @@
 package com.exemplary.itsAnApp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.FtsOptions;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +8,6 @@ import android.os.Parcelable;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 

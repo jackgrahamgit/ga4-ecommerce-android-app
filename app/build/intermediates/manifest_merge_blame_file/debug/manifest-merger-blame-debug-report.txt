@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.exemplary.itsAnApp"
+4    android:versionCode="11"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+10    <!-- Include the required permissions for Mobile Ads -->
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:7:5-68
+13-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:10:5-67
+14-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+15-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+17
+18    <application
+18-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:9:5-57:19
+19        android:name="androidx.multidex.MultiDexApplication"
+20        android:allowBackup="true"
+20-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:10:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.5.0] /Users/jackgraham/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:11:9-43
+24        android:label="@string/store_name"
+24-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:12:9-43
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:13:9-54
+26        android:supportsRtl="true"
+26-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:14:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.itsAnApp" >
+28-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:15:9-46
+29        <activity android:name="com.exemplary.itsAnApp.OrderConfirmationActivity" />
+29-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:16:9-63
+29-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:16:19-60
+30        <activity
+30-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:17:9-19:73
+31            android:name="com.exemplary.itsAnApp.BillingInformationActivity"
+31-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:18:13-55
+32            android:parentActivityName="com.exemplary.itsAnApp.ShippingInformationActivity" />
+32-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:19:13-70
+33        <activity
+33-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:20:9-22:58
+34            android:name="com.exemplary.itsAnApp.ShippingInformationActivity"
+34-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:21:13-56
+35            android:parentActivityName="com.exemplary.itsAnApp.CartActivity" />
+35-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:22:13-55
+36        <activity android:name="com.exemplary.itsAnApp.CartActivity" />
+36-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:23:9-50
+36-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:23:19-47
+37        <activity
+37-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:24:9-32:20
+38            android:name="com.exemplary.itsAnApp.MainActivity"
+38-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:25:13-41
+39            android:label="@string/store_name" >
+39-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:26:13-47
+40            <intent-filter>
+40-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:27:13-31:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:28:17-69
+41-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:28:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:30:17-77
+43-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:30:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:33:9-36:58
+47            android:name="com.exemplary.itsAnApp.ProductsActivity"
+47-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:34:13-45
+48            android:label="@string/store_name"
+48-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:35:13-47
+49            android:parentActivityName="com.exemplary.itsAnApp.MainActivity" />
+49-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:36:13-55
+50        <activity
+50-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:37:9-40:62
+51            android:name="com.exemplary.itsAnApp.ItemComptonActivity"
+51-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:38:13-48
+52            android:label="@string/store_name"
+52-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:39:13-47
+53            android:parentActivityName="com.exemplary.itsAnApp.ProductsActivity" />
+53-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:40:13-59
+54        <activity
+54-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:41:9-44:62
+55            android:name="com.exemplary.itsAnApp.ItemComvergesActivity"
+55-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:42:13-50
+56            android:label="@string/store_name"
+56-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:43:13-47
+57            android:parentActivityName="com.exemplary.itsAnApp.ProductsActivity" />
+57-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:44:13-59
+58        <activity
+58-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:45:9-48:62
+59            android:name="com.exemplary.itsAnApp.ItemFlexigenActivity"
+59-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:46:13-49
+60            android:label="@string/store_name"
+60-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:47:13-47
+61            android:parentActivityName="com.exemplary.itsAnApp.ProductsActivity" />
+61-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:48:13-59
+62        <activity
+62-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:49:9-52:62
+63            android:name="com.exemplary.itsAnApp.ItemFuelworksActivity"
+63-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:50:13-50
+64            android:label="@string/store_name"
+64-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:51:13-47
+65            android:parentActivityName="com.exemplary.itsAnApp.ProductsActivity" />
+65-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:52:13-59
+66
+67        <meta-data
+67-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:54:9-56:70
+68            android:name="com.google.android.gms.ads.APPLICATION_ID"
+68-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:55:13-69
+69            android:value="ca-app-pub-5430752373775862~1101865194" />
+69-->/Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:56:13-67
+70        <meta-data
+70-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:13:9-15:37
+71            android:name="com.google.android.play.billingclient.version"
+71-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:14:13-73
+72            android:value="4.0.0" />
+72-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:15:13-34
+73
+74        <activity
+74-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:17:9-21:75
+75            android:name="com.android.billingclient.api.ProxyBillingActivity"
+75-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:18:13-78
+76            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+76-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:19:13-96
+77            android:exported="false"
+77-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:20:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:21:13-72
+79
+80        <service
+80-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+81            android:name="com.google.firebase.components.ComponentDiscoveryService"
+81-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:28:13-84
+82            android:directBootAware="true"
+82-->[com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+83            android:exported="false" >
+83-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:29:13-37
+84            <meta-data
+84-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+85                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+85-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+88                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+88-->[com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+90        </service>
+91
+92        <provider
+92-->[com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+93            android:name="com.google.firebase.provider.FirebaseInitProvider"
+93-->[com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+94            android:authorities="com.exemplary.itsAnApp.firebaseinitprovider"
+94-->[com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+103
+104        <receiver
+104-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+105            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+105-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+107            android:exported="false" >
+107-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+108        </receiver>
+109
+110        <service
+110-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+111            android:name="com.google.android.gms.measurement.AppMeasurementService"
+111-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+112            android:enabled="true"
+112-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+113            android:exported="false" />
+113-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+114        <service
+114-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+115            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+115-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" />
+118-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+123    </application>
+124
+125</manifest>

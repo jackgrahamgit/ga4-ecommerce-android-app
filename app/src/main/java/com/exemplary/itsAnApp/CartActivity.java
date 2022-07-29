@@ -182,9 +182,6 @@ public class CartActivity extends AppCompatActivity {
         total = counterCompton*44+counterComverges*33+counterFlexigen*16+counterFuelworks*92;
         totalPrice.setText("$" + total);
 
-        // ================================================
-        // View_cart event
-        // ================================================
         Bundle viewCartParams = new Bundle();
         viewCartParams.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
         viewCartParams.putDouble(FirebaseAnalytics.Param.VALUE, total);

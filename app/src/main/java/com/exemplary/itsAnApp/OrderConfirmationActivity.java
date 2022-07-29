@@ -28,11 +28,6 @@ public class OrderConfirmationActivity extends AppCompatActivity {
     }
 
     public void openHome(View view) {
-//        Persist.deleteValue(this, "COMPTON");
-//        Persist.deleteValue(this, "COMVERGES");
-//        Persist.deleteValue(this, "FLEXIGEN");
-//        Persist.deleteValue(this, "FUELWORKS");
-
         Intent intent = new Intent(OrderConfirmationActivity.this, MainActivity.class);
         startActivity(intent);
     }
@@ -101,11 +96,6 @@ public class OrderConfirmationActivity extends AppCompatActivity {
                 new Parcelable[]{ itemComptonCart, itemComvergesCart, itemFlexigenCart, itemFuelworksCart });
 
         mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.REFUND, refundParams);
-
-//        Persist.deleteValue(this, "COMPTON");
-//        Persist.deleteValue(this, "COMVERGES");
-//        Persist.deleteValue(this, "FLEXIGEN");
-//        Persist.deleteValue(this, "FUELWORKS");
 
         Intent intent = new Intent(OrderConfirmationActivity.this, MainActivity.class);
         startActivity(intent);
