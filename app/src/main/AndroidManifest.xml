@@ -2,10 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.exemplary.itsAnApp">
     <!-- Include the required permissions for Mobile Ads -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -14,9 +13,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.itsAnApp">
-        <activity
-            android:name=".TestActivity"
-            android:exported="false" />
         <activity android:name=".OrderConfirmationActivity" />
         <activity
             android:name=".BillingInformationActivity"
@@ -24,10 +20,7 @@
         <activity
             android:name=".ShippingInformationActivity"
             android:parentActivityName=".CartActivity" />
-        <activity android:name=".CartActivity" /> <!-- Connect with AdMob app ID -->
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5430752373775862~1101865194" /> <!-- Create activity for each product -->
+        <activity android:name=".CartActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/store_name">
@@ -40,10 +33,6 @@
         <activity
             android:name=".ProductsActivity"
             android:label="@string/store_name"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".InAppPurchaseActivity"
-            android:label="@string/in_app"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ItemComptonActivity"

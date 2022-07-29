@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_in_app_purchase.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_in_app_purchase.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_test.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_item_fuelworks.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_item_fuelworks.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_shipping_information.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_shipping_information.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_order_confirmation.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_order_confirmation.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_cart.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_cart.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_item_compton.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_item_compton.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_item_comverges.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_item_comverges.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_item_flexigen.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_item_flexigen.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_billing_information.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_billing_information.xml"
+    },
+    {
+        "merged": "/Users/jackgraham/Desktop/ecommerce-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_products.xml",
+        "source": "/Users/jackgraham/Desktop/ecommerce-app/app/src/main/res/layout/activity_products.xml"
+    }
+]

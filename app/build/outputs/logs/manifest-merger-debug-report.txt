@@ -1,0 +1,514 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/jackgraham/.gradle/caches/transforms-3/3f1bb7f08fcdd134c23d6bf8f48c96d9/transformed/viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/jackgraham/.gradle/caches/transforms-3/71219d235091b1d05863d83bfcc2f39a/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/ee2d169e10a282fcad621645aad13fff/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/af7e085656cc0436846770d551829765/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/jackgraham/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/ee44ab6bece5a68f06a125416db2f632/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/jackgraham/.gradle/caches/transforms-3/9b55d8e26b93d89e39247ba75ce39810/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/8c5882912586586a8ce9816d44179192/transformed/firebase-core-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/83c281e7094970671999ed82a68c0351/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/0e3f4dc5baf3a05d974c2a9727013620/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/adc34ea7de31ba730e2ac5280b254d66/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f9b79f51315d04aad8dae835693a8916/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/14d1d06a230697989a218ce04e369b29/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jackgraham/.gradle/caches/transforms-3/3f5f68cf20ba525ac803545dc2e3d5eb/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/0d2074fbd706cbcea7e947ebb778ab4d/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d4f9460dd76753c1c032ea512dcc47b8/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/jackgraham/.gradle/caches/transforms-3/bbd7a82459b10f6111cec3660be2f9d1/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jackgraham/.gradle/caches/transforms-3/062745ea000af04162270b449e50753d/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jackgraham/.gradle/caches/transforms-3/587789f4bf5a95776bb461b7433985d1/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/52aa55e83ffe62883b7916f8fb8b609d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/cecc9ec94e8e30395072a7eb11bbef0f/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/fddb33b39e6455462ba333737ad76ff4/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/jackgraham/.gradle/caches/transforms-3/f54360de4e51abc6ec99b36faf658d4b/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/0a8a6d8d23b94fbbd6f00c18b2c844c0/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/jackgraham/.gradle/caches/transforms-3/81e00585934a857603eb6cbafe5aec32/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/jackgraham/.gradle/caches/transforms-3/c45623c6337ba8a14f23d8dcdc32c8ce/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/7dbe7daaf86f9f23e335d887282c06ad/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/4130fd99172a744b909ab4e4ce3706e8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/695dfd7bac1babc775b9525822853c0b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/7b0303712f95b3be8d3c57682b9f0508/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/92a83c02ee51d386e02e7e5c15fc206f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6582d73d00068d6df4a323b0fc1453d3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/jackgraham/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/eb17b8633598ddd7c0dd2fa6437d315d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/d93022fe9c7c071d88cd666b93d4667e/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/396be8f4778640061d8e935c75ee440d/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/57ece2a479fc438d748a3abe71a2e921/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/3ced5a7639a99abf5c0eb6d04cd6698e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/322f31ab066b2cf9d72df833b3df8ea3/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/ec9c7ff1fde89c0c7cc82d746c4b3d00/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/9e773c82a5c4075d65abc2e2136faff4/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8a5448540d80c043ef2527ed05a79098/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/5614c20cb9060278f11623b2ed4b3fbe/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/e48666afaef4229291498f06f5b7dd91/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/cbe37705aa175a04d61f5ea45bb09284/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/7ffe4246977594fb4a9b6697a06b326e/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/0f51d6eade7a11156e3fc7ee53014d2e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/3c4cdcd2e9f2910d703350965f49f5be/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/438a9b982c73ed0033165585e13c3945/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f33bcb2f5c49a496470aa54ba8b02aa6/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:7:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:7:22-65
+application
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:9:5-57:19
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/jackgraham/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/jackgraham/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/ee44ab6bece5a68f06a125416db2f632/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/ee44ab6bece5a68f06a125416db2f632/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/8c5882912586586a8ce9816d44179192/transformed/firebase-core-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/8c5882912586586a8ce9816d44179192/transformed/firebase-core-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/83c281e7094970671999ed82a68c0351/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/83c281e7094970671999ed82a68c0351/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:12:5-22:19
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:12:5-22:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/14d1d06a230697989a218ce04e369b29/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/14d1d06a230697989a218ce04e369b29/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jackgraham/.gradle/caches/transforms-3/3f5f68cf20ba525ac803545dc2e3d5eb/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jackgraham/.gradle/caches/transforms-3/3f5f68cf20ba525ac803545dc2e3d5eb/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/0d2074fbd706cbcea7e947ebb778ab4d/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/0d2074fbd706cbcea7e947ebb778ab4d/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/jackgraham/.gradle/caches/transforms-3/bbd7a82459b10f6111cec3660be2f9d1/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/jackgraham/.gradle/caches/transforms-3/bbd7a82459b10f6111cec3660be2f9d1/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jackgraham/.gradle/caches/transforms-3/062745ea000af04162270b449e50753d/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jackgraham/.gradle/caches/transforms-3/062745ea000af04162270b449e50753d/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] /Users/jackgraham/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/jackgraham/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/ec9c7ff1fde89c0c7cc82d746c4b3d00/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/ec9c7ff1fde89c0c7cc82d746c4b3d00/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/jackgraham/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:12:9-43
+	android:roundIcon
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:15:9-46
+activity#com.exemplary.itsAnApp.OrderConfirmationActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:16:9-63
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:16:19-60
+activity#com.exemplary.itsAnApp.BillingInformationActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:17:9-19:73
+	android:parentActivityName
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:19:13-70
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:18:13-55
+activity#com.exemplary.itsAnApp.ShippingInformationActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:20:9-22:58
+	android:parentActivityName
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:22:13-55
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:21:13-56
+activity#com.exemplary.itsAnApp.CartActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:23:19-47
+activity#com.exemplary.itsAnApp.MainActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.exemplary.itsAnApp.ProductsActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:33:9-36:58
+	android:parentActivityName
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:36:13-55
+	android:label
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:35:13-47
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:34:13-45
+activity#com.exemplary.itsAnApp.ItemComptonActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:37:9-40:62
+	android:parentActivityName
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:40:13-59
+	android:label
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:39:13-47
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:38:13-48
+activity#com.exemplary.itsAnApp.ItemComvergesActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:41:9-44:62
+	android:parentActivityName
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:44:13-59
+	android:label
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:43:13-47
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:42:13-50
+activity#com.exemplary.itsAnApp.ItemFlexigenActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:45:9-48:62
+	android:parentActivityName
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:48:13-59
+	android:label
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:47:13-47
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:46:13-49
+activity#com.exemplary.itsAnApp.ItemFuelworksActivity
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:49:9-52:62
+	android:parentActivityName
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:52:13-59
+	android:label
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:51:13-47
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:50:13-50
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:54:9-56:70
+	android:value
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:56:13-67
+	android:name
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml:55:13-69
+uses-sdk
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/jackgraham/.gradle/caches/transforms-3/3f1bb7f08fcdd134c23d6bf8f48c96d9/transformed/viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/jackgraham/.gradle/caches/transforms-3/3f1bb7f08fcdd134c23d6bf8f48c96d9/transformed/viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/jackgraham/.gradle/caches/transforms-3/71219d235091b1d05863d83bfcc2f39a/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/jackgraham/.gradle/caches/transforms-3/71219d235091b1d05863d83bfcc2f39a/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/ee2d169e10a282fcad621645aad13fff/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/ee2d169e10a282fcad621645aad13fff/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/af7e085656cc0436846770d551829765/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/af7e085656cc0436846770d551829765/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8971fb777e563fd6de47edd07d3fdfc9/transformed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/jackgraham/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/jackgraham/.gradle/caches/transforms-3/8a7a06036e0c4f4e613a8bbc02ac21f5/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/ee44ab6bece5a68f06a125416db2f632/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/ee44ab6bece5a68f06a125416db2f632/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/jackgraham/.gradle/caches/transforms-3/9b55d8e26b93d89e39247ba75ce39810/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/jackgraham/.gradle/caches/transforms-3/9b55d8e26b93d89e39247ba75ce39810/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/8c5882912586586a8ce9816d44179192/transformed/firebase-core-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/8c5882912586586a8ce9816d44179192/transformed/firebase-core-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/83c281e7094970671999ed82a68c0351/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/83c281e7094970671999ed82a68c0351/transformed/firebase-analytics-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/0e3f4dc5baf3a05d974c2a9727013620/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/0e3f4dc5baf3a05d974c2a9727013620/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/adc34ea7de31ba730e2ac5280b254d66/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/adc34ea7de31ba730e2ac5280b254d66/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f9b79f51315d04aad8dae835693a8916/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f9b79f51315d04aad8dae835693a8916/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/14d1d06a230697989a218ce04e369b29/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/14d1d06a230697989a218ce04e369b29/transformed/play-services-measurement-sdk-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jackgraham/.gradle/caches/transforms-3/3f5f68cf20ba525ac803545dc2e3d5eb/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jackgraham/.gradle/caches/transforms-3/3f5f68cf20ba525ac803545dc2e3d5eb/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/f8f74d54f587b92566634de669c768ff/transformed/play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/0d2074fbd706cbcea7e947ebb778ab4d/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/0d2074fbd706cbcea7e947ebb778ab4d/transformed/play-services-measurement-base-20.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d4f9460dd76753c1c032ea512dcc47b8/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d4f9460dd76753c1c032ea512dcc47b8/transformed/firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/jackgraham/.gradle/caches/transforms-3/bbd7a82459b10f6111cec3660be2f9d1/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/jackgraham/.gradle/caches/transforms-3/bbd7a82459b10f6111cec3660be2f9d1/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jackgraham/.gradle/caches/transforms-3/062745ea000af04162270b449e50753d/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jackgraham/.gradle/caches/transforms-3/062745ea000af04162270b449e50753d/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jackgraham/.gradle/caches/transforms-3/587789f4bf5a95776bb461b7433985d1/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jackgraham/.gradle/caches/transforms-3/587789f4bf5a95776bb461b7433985d1/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/52aa55e83ffe62883b7916f8fb8b609d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/52aa55e83ffe62883b7916f8fb8b609d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/cecc9ec94e8e30395072a7eb11bbef0f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/cecc9ec94e8e30395072a7eb11bbef0f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/fddb33b39e6455462ba333737ad76ff4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/fddb33b39e6455462ba333737ad76ff4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/jackgraham/.gradle/caches/transforms-3/f54360de4e51abc6ec99b36faf658d4b/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/jackgraham/.gradle/caches/transforms-3/f54360de4e51abc6ec99b36faf658d4b/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/0a8a6d8d23b94fbbd6f00c18b2c844c0/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/0a8a6d8d23b94fbbd6f00c18b2c844c0/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/jackgraham/.gradle/caches/transforms-3/81e00585934a857603eb6cbafe5aec32/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/jackgraham/.gradle/caches/transforms-3/81e00585934a857603eb6cbafe5aec32/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/jackgraham/.gradle/caches/transforms-3/c45623c6337ba8a14f23d8dcdc32c8ce/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/jackgraham/.gradle/caches/transforms-3/c45623c6337ba8a14f23d8dcdc32c8ce/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/7dbe7daaf86f9f23e335d887282c06ad/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/7dbe7daaf86f9f23e335d887282c06ad/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/4130fd99172a744b909ab4e4ce3706e8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/4130fd99172a744b909ab4e4ce3706e8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/695dfd7bac1babc775b9525822853c0b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/695dfd7bac1babc775b9525822853c0b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/7b0303712f95b3be8d3c57682b9f0508/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/jackgraham/.gradle/caches/transforms-3/7b0303712f95b3be8d3c57682b9f0508/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/92a83c02ee51d386e02e7e5c15fc206f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/92a83c02ee51d386e02e7e5c15fc206f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6582d73d00068d6df4a323b0fc1453d3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6582d73d00068d6df4a323b0fc1453d3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/jackgraham/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/jackgraham/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/eb17b8633598ddd7c0dd2fa6437d315d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/eb17b8633598ddd7c0dd2fa6437d315d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/d93022fe9c7c071d88cd666b93d4667e/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/d93022fe9c7c071d88cd666b93d4667e/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/396be8f4778640061d8e935c75ee440d/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/jackgraham/.gradle/caches/transforms-3/396be8f4778640061d8e935c75ee440d/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/57ece2a479fc438d748a3abe71a2e921/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/57ece2a479fc438d748a3abe71a2e921/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/3ced5a7639a99abf5c0eb6d04cd6698e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/3ced5a7639a99abf5c0eb6d04cd6698e/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/322f31ab066b2cf9d72df833b3df8ea3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/322f31ab066b2cf9d72df833b3df8ea3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/ec9c7ff1fde89c0c7cc82d746c4b3d00/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jackgraham/.gradle/caches/transforms-3/ec9c7ff1fde89c0c7cc82d746c4b3d00/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/9e773c82a5c4075d65abc2e2136faff4/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/9e773c82a5c4075d65abc2e2136faff4/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8a5448540d80c043ef2527ed05a79098/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jackgraham/.gradle/caches/transforms-3/8a5448540d80c043ef2527ed05a79098/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/5614c20cb9060278f11623b2ed4b3fbe/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/jackgraham/.gradle/caches/transforms-3/5614c20cb9060278f11623b2ed4b3fbe/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/e48666afaef4229291498f06f5b7dd91/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jackgraham/.gradle/caches/transforms-3/e48666afaef4229291498f06f5b7dd91/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/cbe37705aa175a04d61f5ea45bb09284/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/cbe37705aa175a04d61f5ea45bb09284/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/7ffe4246977594fb4a9b6697a06b326e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/7ffe4246977594fb4a9b6697a06b326e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/0f51d6eade7a11156e3fc7ee53014d2e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/0f51d6eade7a11156e3fc7ee53014d2e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/3c4cdcd2e9f2910d703350965f49f5be/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/3c4cdcd2e9f2910d703350965f49f5be/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/438a9b982c73ed0033165585e13c3945/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/438a9b982c73ed0033165585e13c3945/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f33bcb2f5c49a496470aa54ba8b02aa6/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f33bcb2f5c49a496470aa54ba8b02aa6/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jackgraham/Desktop/ecommerce-app/app/src/main/AndroidManifest.xml
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:10:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/jackgraham/.gradle/caches/transforms-3/f8cfcfdb4d8dd95167faef8784f77c73/transformed/billing-4.0.0/AndroidManifest.xml:18:13-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/a526c155ef1ddbc3d2534649d75dabd4/transformed/play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/a844cd1cfb8e0f3354c1720799017d59/transformed/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/jackgraham/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jackgraham/.gradle/caches/transforms-3/239d383bd3563dc979b79fdfcae9b52b/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/1862be06260066eed5e2ce9639bf7a0a/transformed/play-services-measurement-impl-20.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/jackgraham/.gradle/caches/transforms-3/86ed75e4d64576f274f5cc1758dcfb6a/transformed/play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/6ee7beadb6a5362ed4f1247f69bae262/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jackgraham/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
