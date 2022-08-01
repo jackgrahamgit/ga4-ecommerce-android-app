@@ -26,7 +26,7 @@ To import the project:
 
 To collect data from the app in your Analytics property, add an Android app data stream to your
 property and then add your google-services.json to the src/ folder. Once you connect the app to your
-property, [enable debug mode](https://developers.devsite.corp.google.com/analytics/devguides/collection/ga4/debug?technology=apps#android)
+property, [enable debug mode](https://support.google.com/analytics/answer/7201382)
 so you can see the ecommerce events in realtime.
 
 To connect the app to your property:
